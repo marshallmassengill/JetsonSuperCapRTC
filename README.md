@@ -17,6 +17,7 @@ These capacitors have a maximum voltage of 3V and are 5Farads in capacity.  Othe
 # Jetson Nano
 
 ## Circuit Diagram:
+![Jetson Nano RTC Circuit Diagram](JetsonNanoRTCCircuitDiagram.png)
 
 ## Changes:
  - The diode (Dn) is not present on the Nano and can instead just be jumpered.
@@ -30,6 +31,7 @@ These capacitors have a maximum voltage of 3V and are 5Farads in capacity.  Othe
 # Jetson Xavier NX
 
 ## Circuit Diagram:
+![Jetson Xavier NX RTC Circuit Diagram](JetsonXavierNXRTCCircuitDiagram.png)
 
 ## Changes:
  - The diode (D4) is present on the Xavier NX and should be removed to reduce leakage current.
