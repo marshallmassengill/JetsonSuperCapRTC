@@ -52,7 +52,7 @@ Details below apply to the NVIDIA Jetson Xavier NX.
 
 ## Changes:
  - The diode (D4) is present on the Xavier NX and should be removed to reduce leakage current.
- - The resistor (R122) is not present but can be jumpered with a small amount of solder (Alternative: jumper the pads for D4 after removing it).
+ - The resistor (R222) is not present but can be jumpered with a small amount of solder (Alternative: jumper the pads for D4 after removing it).
  - There is no location available for a supercap so the RTC battery pads will be used.
 
 ## Before:
@@ -120,5 +120,5 @@ Details below apply to the NVIDIA Jetson Xavier NX.
 -        maxim,backup-battery-charging-current = <0x64>;
          maxim,backup-battery-charging-voltage = <0x2dc6c0>;
          maxim,backup-battery-output-resister = <0x64>;
-- 0x64 is 100uA
-- 0x2dc6c0 is 3000000uV (3v)
+- 0x64 is 100uA (Default configured charge current)
+- 0x2dc6c0 is 3000000uV or 3v (Default configured charge voltage)
