@@ -22,7 +22,7 @@ This is pretty simple.  The negative and positive sides are both marked.
 - Attach wire leads with solder.
 - Apply some heatshrink.
 
-![SuperCap Prep Annotated](CapPrepAnnotated.png)CapPrepAnnotated.png
+![SuperCap Prep Annotated](CapPrepAnnotated.png)
 
 ***
 
