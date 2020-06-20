@@ -33,7 +33,7 @@ Details below apply to the NVIDIA Jetson Nano.
 ![Jetson Nano RTC Circuit Diagram](JetsonNanoRTCCircuitDiagram.png)
 
 ## Changes:
- - The diode (Dn) is not present on the Nano and can instead just be jumpered.
+ - The diode (D64) is not present on the Nano and can instead just be jumpered.
  - The location for the supercap on the board can be ignored and we can solder leads directly to the RTC pads.
 
 ## Before:
