@@ -15,6 +15,7 @@ The following SuperCapacitors from Maxwell were used:
 These capacitors have a maximum voltage of 3V and are 5Farads in capacity.  Other alternatives could be used but results are based on these.
 
 # Jetson Nano
+Details below apply to the NVIDIA Jetson Nano.
 
 ## Circuit Diagram:
 ![Jetson Nano RTC Circuit Diagram](JetsonNanoRTCCircuitDiagram.png)
@@ -29,6 +30,7 @@ These capacitors have a maximum voltage of 3V and are 5Farads in capacity.  Othe
 
 
 # Jetson Xavier NX
+Details below apply to the NVIDIA Jetson Xavier NX.
 
 ## Circuit Diagram:
 ![Jetson Xavier NX RTC Circuit Diagram](JetsonXavierNXRTCCircuitDiagram.png)
