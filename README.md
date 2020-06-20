@@ -16,13 +16,13 @@ The following SuperCapacitors from Maxwell were used:
 These capacitors have a maximum voltage of 3V (3.1V surge) and are 5Farads in capacity.  Other alternative SuperCaps could be used but results are based on these and they seem more than adequate for the use case.
 
 ***
-# Capacitor Prep
+# Super Capacitor Prep
 This is pretty simple.  The negative and positive sides are both marked.  
 - Cut the SuperCap leads shorter (unless you want them long).
 - Attach wire leads with solder.
 - Apply some heatshrink.
 
-## Finished SuperCap
+![SuperCap Prep Annotated](CapPrepAnnotated.png)CapPrepAnnotated.png
 
 ***
 
