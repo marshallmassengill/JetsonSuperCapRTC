@@ -16,6 +16,15 @@ The following SuperCapacitors from Maxwell were used:
 These capacitors have a maximum voltage of 3V (3.1V surge) and are 5Farads in capacity.  Other alternative SuperCaps could be used but results are based on these and they seem more than adequate for the use case.
 
 ***
+# Capacitor Prep
+This is pretty simple.  The negative and positive sides are both marked.  
+- Cut the SuperCap leads shorter (unless you want them long).
+- Attach wire leads with solder.
+- Apply some heatshrink.
+
+## Finished SuperCap
+
+***
 
 # Jetson Nano
 Details below apply to the NVIDIA Jetson Nano.
@@ -28,8 +37,10 @@ Details below apply to the NVIDIA Jetson Nano.
  - The location for the supercap on the board can be ignored and we can solder leads directly to the RTC pads.
 
 ## Before:
+![Jetson Nano Before](NanoBefore.png)
 
 ## After:
+![Jetson Nano After](NanoAfter.png)
 
 ***
 
@@ -45,8 +56,10 @@ Details below apply to the NVIDIA Jetson Xavier NX.
  - There is no location available for a supercap so the RTC battery pads will be used.
 
 ## Before:
+![Jetson Xavier NX Before](XavierNXBefore.png)
 
 ## After:
+![Jetson Xavier NX After](XavierNXAfter.png)
 
 ***
 
